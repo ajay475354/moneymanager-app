@@ -1,0 +1,36 @@
+.table_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  border-bottom: solid 1px grey;
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.transaction_text {
+  color: black;
+  font-family: "Roboto";
+  font-size: 12px;
+  width: 30%;
+}
+.delete_container {
+  display: flex;
+  width: 10%;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete_icon {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  border: none;
+  outline: none;
+}
